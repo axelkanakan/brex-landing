@@ -5,8 +5,8 @@ Part of a series to build my front-end skills buidling based on another designer
 original source: https://dribbble.com/shots/5658117-Brex-Landing-Page
 
 
-* **Axel Kanakan** - *Intial work* - [axelkanakan](https://github.com/axelkanakan)
+* **Axel Kanakan** - *Development* - [axelkanakan](https://github.com/axelkanakan)
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for detailsh
