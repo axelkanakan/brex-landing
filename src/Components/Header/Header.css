@@ -18,7 +18,9 @@
 }
 
 .logo{
+    display: flex;
     flex:1;
+    justify-content: center;
 }
 
 .logo h1{
@@ -66,3 +68,63 @@
     flex:1;
 }
 
+.mini-navigation{
+    display: none;
+}
+
+@media (max-width: 1060px){
+    
+    .navigation{
+        flex: 8;
+    }
+
+    
+    .navigation h4{
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 1000px){
+
+    .buttons-container .Button{
+        display: none;
+    }
+    .buttons-container {
+        justify-content: center;
+    }
+
+    .nav-container{
+        flex: 4;
+    }
+}
+
+@media (max-width:780px){
+    
+    .navigation{
+        flex:1;
+    }
+
+    .logo{
+        justify-content: flex-start;
+    }
+
+    .logo h1{
+        margin-left: 50px;
+    }
+
+    .nav-container{
+        display: none;
+    }
+
+    .buttons-container{
+        display: none;
+    }
+
+    .mini-navigation{
+        display: flex;
+        flex: 1;
+        justify-content: flex-end;
+        margin-right: 50px;
+
+    }
+}
