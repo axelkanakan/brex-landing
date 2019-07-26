@@ -1,11 +1,12 @@
 import React from 'react';
 import Button from '../Button';
 import Outbutton from '../Outbutton';
-import {Menu} from 'react-feather';
+import {Menu, X} from 'react-feather';
 
 import './Header.css';
 
-const Header = () => (
+const Header = ({ openNav, handleNavOpen}) => {
+    return (
     <div className="Header">
         <header className="header-container">
             <div className="logo"><h1>Brex</h1></div>
@@ -23,13 +24,16 @@ const Header = () => (
                     <Button/>
                 </div>
 
-                <div className="mini-navigation">
-                    <Menu size={40} color={"#f75f81"}/>
+                <div className="mini-icon">
+                <div onClick={handleNavOpen}>
+                    { openNav ?  <X size={40} color={"#f75f81"}/>  : <Menu size={40} color={"#f75f81"}/>  }
                 </div>
-
+                </div>
             </div>
         </header>
     </div>
-)
+);
+
+}
 
 export default Header;
