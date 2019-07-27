@@ -26,7 +26,7 @@ const NavDropDown = ({openNav}) => {
                     <h4>FAQ</h4>
                 </div>
                 <div className="nav-items">
-                    <Button/>
+                    <Button label={"Get Started"}/>
                 </div>
                 <div className="nav-items">
                 <Outbutton/>
@@ -34,7 +34,7 @@ const NavDropDown = ({openNav}) => {
         </div>
         )
     }else{
-        return null
+        return null;
     }
 
 

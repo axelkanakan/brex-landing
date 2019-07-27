@@ -2,9 +2,9 @@ import React from 'react';
 
 import './Button.css';
 
-const Button = ()=> (
+const Button = (props)=> (
     <div  className="Button" href="#" >
-        <span>Get Started</span>
+        <span>{props.label}</span>
     </div>
 )
 
