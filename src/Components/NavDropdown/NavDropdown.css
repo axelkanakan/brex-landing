@@ -6,7 +6,7 @@
 @media(max-width:780px){
     .nav-dropdown{
         display: flex;
-        background: #FAFAFA;
+        background: #FFF;
         height: calc(100% - 100px);
         width: 100%;
         flex-direction: column;
