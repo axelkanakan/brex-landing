@@ -1,0 +1,171 @@
+.Hcontent{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    background:#fff;
+    justify-content: center;
+    width: 100%;
+}
+.title-hover{
+    position: relative;
+    left: 70px;
+    top: 100px;
+}
+
+.title{
+    display: flex;
+    width:30%;
+    text-align: left;
+    flex-direction: column;
+}
+
+.title  h1{
+    font-size: 52px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 300;
+    color: #313388; 
+    line-height: 64px;
+    margin:0;
+    width: 400px;
+    margin-bottom: 40px;
+}
+
+.title p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color:#313388;
+    letter-spacing: 1px;
+    width: 450px;
+    margin:0;
+    margin-bottom:40px;   
+}
+
+
+.hc-button{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.bg-image{
+    display:flex;
+    justify-content: flex-end;
+    width: 70%;
+    margin-left:0;
+
+}
+.bg-image img{
+    width: 100%;
+}
+
+@media(max-width:1060px){
+    .title{
+        width:20%;
+    }
+
+    .title-hover{
+        left: 20px;
+        top:20px;
+        
+    }
+
+    .title-hover p{
+        width: 390px;
+    }
+
+
+    .bg-image{
+        width: 80%;
+        margin-left: 0;
+        justify-content: flex-end;
+    }
+
+    .bg-image img{
+        width: 740px;
+        height: 671px;
+    }
+}
+
+@media(max-width: 1000px){
+    .container{
+        width: 100%;
+        min-height:100vh;
+    }
+   
+    .title{
+        width: 20%;
+    }
+    
+
+
+    .bg-image{
+        width:80%;
+        justify-content: center;
+
+    }
+
+    .bg-image img{
+        width: 740px;
+        height: 671px;
+    }
+    
+
+}
+
+@media(max-width:950px){
+    .title{
+        width: 50%;
+    }
+ 
+    .title-hover{
+        width: 100%;
+    } 
+
+   .title h1{
+        margin-bottom:25px;
+   }
+
+   .title p{
+       margin-bottom: 50px;
+       width: 700px;
+
+   }
+
+ 
+   
+    .bg-image{
+        width: 100%;
+    }
+
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 790px){
+    .title-hover{
+        left: 50px;
+    }
+
+    .title h1{
+        font-size: 42px;
+        line-height: 60px;
+
+    }
+
+    .title p{
+        font-size: 16px;
+        line-height: 25px;
+        width: 160%;
+    }
+
+    .bg-image img{
+        width: 500px;
+        height:553px;
+    }
+}
