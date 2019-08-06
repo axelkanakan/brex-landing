@@ -169,3 +169,20 @@
         height:553px;
     }
 }
+
+
+@media (max-width: 375px){
+    .title h1{
+        font-size: 38px;
+        width: 300px;
+        line-height: 52px;
+    }
+
+    .bg-image{
+        margin-top: 50px;
+    }
+    .bg-image img{
+        width: 350px;
+        height: 317.36px;
+    }
+}
