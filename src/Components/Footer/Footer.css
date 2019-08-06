@@ -207,3 +207,41 @@
         line-height: 16px;
     }
 }
+
+@media(max-width:375px){
+    .right-content{
+        flex-wrap:wrap; 
+    }
+
+    .input input {
+        width: 200px;
+    } 
+
+
+    .col-1{
+        margin-right: 20px;
+        margin-left:30px;
+    }
+
+    .col-1:last-child{
+        margin-top: 30px;
+    }
+
+    .col-1:nth-child(2){
+        margin-left: 60px;
+    }
+
+    .col-1 h3{
+        font-size: 24px;
+    }
+
+    .col-1 p{
+        font-size: 18px;
+    }
+
+
+    .bottom-content p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+}
