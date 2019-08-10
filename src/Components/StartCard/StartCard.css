@@ -1,0 +1,26 @@
+.StartCard{
+    width: 335px;
+    height:500px;
+    background: #fff;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 6px 26px 0px rgba(142,140,219,0.25);
+}
+
+.card-content h3{
+    font-size: 22px;
+    font-weight: 100;
+    font-family: 'Nunito', sans-serif;
+    color: #313388;
+}
+
+
+.card-content p {
+    max-width: 250px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px; 
+    font-weight:300;
+    line-height:30px;
+    color:#313388;
+}
