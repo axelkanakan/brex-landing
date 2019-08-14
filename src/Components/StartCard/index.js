@@ -6,7 +6,7 @@ import './StartCard.css';
 const StartCard = ({title, content, image}) =>
 {
     
-    return ( <div className= "StartCard">
+    return ( <div className= "StartCard startHover">
         <div className="card-container">
             <div className="start-image">
                 <img src={image} alt="sign-up"/>

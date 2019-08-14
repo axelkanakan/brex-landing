@@ -8,21 +8,21 @@ class Start extends Component{
     state = {cardData};
 
     render(){
-        console.log(this.state.cardData.map(card => card.card));
         const {cardData} = this.state;
         return (
             <div className="Start">
                 <h1>Easy To Start</h1>
+                <div className="cards-container">
                 {
                     cardData.map(card => {
                         const {cardInfo} = card;
                         
                         return (
-                            <StartCard title={cardInfo.title} content={cardInfo.content} image={cardInfo.image}/>
+                            <StartCard key={cardInfo.id} title={cardInfo.title} content={cardInfo.content} image={cardInfo.image}/>
                         )
                     })
                 }
-                {/* <StartCard title={title} content={content} image={image}/> */}
+                </div>
             </div>
         )
     }
