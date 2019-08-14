@@ -1,23 +1,28 @@
 import React, {Component} from 'react';
 import './Start.css';
 import StartCard from '../../Components/StartCard';
-import cardImg from '../../Assets/card-img.png';
+import { cardData } from '../../Data/data';
 
 class Start extends Component{
 
-    state = {
-        card : {
-            title:'Easy online signup',
-            content:"80% of founders don't realize they are liable for their corporate card- we offer the only corporate card for startups.",
-            image: cardImg
-        }
-    }
+    state = {cardData};
+
     render(){
-        const {title, content, image} = this.state.card;
+        console.log(this.state.cardData.map(card => card.card));
+        const {cardData} = this.state;
         return (
             <div className="Start">
                 <h1>Easy To Start</h1>
-                <StartCard title={title} content={content} image={image}/>
+                {
+                    cardData.map(card => {
+                        const {cardInfo} = card;
+                        
+                        return (
+                            <StartCard title={cardInfo.title} content={cardInfo.content} image={cardInfo.image}/>
+                        )
+                    })
+                }
+                {/* <StartCard title={title} content={content} image={image}/> */}
             </div>
         )
     }
