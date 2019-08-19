@@ -3,10 +3,16 @@ import Outbutton from '../Outbutton';
 import './StartCard.css';
 
 
-const StartCard = ({title, content, image}) =>
-{
+const StartCard = ({title, content, image, onEnterHandler, onExitHandler, onHover}) =>
+
+{   
+    const startClass = ["StartCard", onHover ? "startHover" : null]
+
     
-    return ( <div className= "StartCard startHover">
+    return ( <div className={startClass.join(" ")} 
+                  onMouseEnter={onEnterHandler}
+                  onMouseLeave={onExitHandler}
+                  >
         <div className="card-container">
             <div className="start-image">
                 <img src={image} alt="sign-up"/>
