@@ -1,0 +1,29 @@
+.btn {
+	background-image: linear-gradient(to right, #FD8B86 0%, #F43F7D 100%);
+	border-radius: 10px;
+    box-sizing: border-box;
+	color: var(--primary-pink);
+	display: block;
+	height: 45px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	padding: 2px;
+	position: relative;
+	width: 150px;
+    z-index: 2;
+    font-size: 14px;
+	font-weight: 600;
+	transition: color .5s ease;
+}
+
+
+.btn span {
+	align-items: center;
+	background:white;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	height: 100%;
+	transition: background .5s ease;
+	width: 100%;
+}

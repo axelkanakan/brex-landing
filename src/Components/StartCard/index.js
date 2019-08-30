@@ -1,17 +1,28 @@
 import React from 'react';
-import Outbutton from '../Outbutton';
+import CardButton from '../CardButton';
 import './StartCard.css';
 
+const cardHover = {
+    transform: 'scale(1.01)',
+    boxShadow: '0px 6px 26px 0px rgba(142,140,219,0.25)'
+}
+
+const cardNoHover = {
+    transform:'scale(1)',
+    boxShadow:'none'
+}
 
 const StartCard = ({title, content, image, onEnterHandler, onExitHandler, onHover}) =>
 
 {   
-    const startClass = ["StartCard", onHover ? "startHover" : null]
+    // const startClass = ["StartCard", onHover ? "startHover" : null]
 
     
-    return ( <div className={startClass.join(" ")} 
+    return ( <div className={'StartCard'} 
                   onMouseEnter={onEnterHandler}
                   onMouseLeave={onExitHandler}
+
+                  style={onHover? cardHover : cardNoHover}
                   >
         <div className="card-container">
             <div className="start-image">
@@ -20,7 +31,7 @@ const StartCard = ({title, content, image, onEnterHandler, onExitHandler, onHove
             <div className="card-content">
                 <h3>{title}</h3>
                 <p>{content}</p>
-                <Outbutton />
+                <CardButton title={'Learn More'} onHover={onHover}/>
             </div>
         </div>
     </div>)}
