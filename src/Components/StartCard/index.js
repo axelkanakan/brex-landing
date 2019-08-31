@@ -3,12 +3,10 @@ import CardButton from '../CardButton';
 import './StartCard.css';
 
 const cardHover = {
-    transform: 'scale(1.01)',
     boxShadow: '0px 6px 26px 0px rgba(142,140,219,0.25)'
 }
 
 const cardNoHover = {
-    transform:'scale(1)',
     boxShadow:'none'
 }
 

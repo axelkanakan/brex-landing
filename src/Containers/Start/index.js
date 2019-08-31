@@ -31,7 +31,11 @@ class Start extends Component{
         
         return (
             <div className="Start">
+                <div className='StartHeader'>
                 <h1>Easy To Start</h1>
+                <p>Brex understands the startups are different from traditional small businesses.
+                Our application takes only minutes, so you can get back to building your business.</p>
+                </div>
                 <div className="cards-container">
 
                 {

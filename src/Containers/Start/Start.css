@@ -1,6 +1,33 @@
+.StartHeader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+
+.Start h1{
+    font-family: 'Nunito', sans-serif;
+    font-weight:400;
+    font-size: 48px;
+    color:var(--primary-blue);
+}
+
+.Start p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color:#313388;
+    letter-spacing: 1px;
+    width: 800px;
+    margin:0;
+}
+
 
 .cards-container{
     display:flex;
     flex-wrap:wrap;
     justify-content: space-around;
+    margin-bottom: 100px;
 }
+
