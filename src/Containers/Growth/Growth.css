@@ -1,0 +1,47 @@
+.Growth{
+    display: flex;
+    flex-direction: column;
+}
+
+.Growth-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.Growth-title h1{
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+    color:var(--primary-blue);
+    font-weight: 300;
+}
+
+.Growth-title p{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color:#313388;
+    letter-spacing: 1px;
+    width: 800px;
+    margin:0;
+}
+
+.g-content{
+    display: flex;
+    flex-direction: row;
+}
+
+.g-description{
+    display: flex;
+    flex-direction: column;
+}
+
+.g-description h1{
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+    font-size: 42px;
+    color:var(--primary-blue);
+    font-weight: 300;
+}
