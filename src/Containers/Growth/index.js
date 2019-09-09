@@ -1,6 +1,7 @@
 import React from 'react';
 import './Growth.css';
 import sectionImage from '../../Assets/sectionImageOne.png';
+import arrow from '../../Assets/arrow.svg';
 
 const Growth = () => 
     <div className="Growth">
@@ -15,7 +16,7 @@ const Growth = () =>
             <div className="g-description">
                 <h1>Full Control</h1>
                 <p>Use the dashboard to instantly add cardholders and set individual limits based on your business needs.</p>
-                <p>Learn More -></p>
+                <p className="learn">Learn More <img src={arrow} alt="pink-arrow"/></p>
             </div>
         </div>
     </div>
