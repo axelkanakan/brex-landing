@@ -77,7 +77,7 @@
 
 .f-image img{
     width: 650px;
-    height: 401px;
+    height: 423px;
 }
 
 .f-learn img{
@@ -87,7 +87,7 @@
 @media (max-width: 950px){
     .f-image img{
         width: 500px;
-        height: 308px;
+        height: 325px;
     }
 
     .f-description h1{
@@ -106,6 +106,7 @@
     .f-content{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
     }
     .Friction-title h1{
         font-size: 42px;
@@ -118,7 +119,7 @@
 
     .f-image img{
         width: 650px;
-        height: 401px;
+        height: 423px;
     }
 
     .f-description{
@@ -149,7 +150,7 @@
 
     .f-image img{
         width: 500px;
-        height: 308px;
+        height: 325px;
     }
 
     .f-description{
@@ -178,7 +179,7 @@
 
     .f-image img{
         width: 500px;
-        height: 308px;
+        height: 325px;
     }
 
     .Friction-title p {

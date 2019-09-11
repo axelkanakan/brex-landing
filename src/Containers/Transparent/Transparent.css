@@ -109,6 +109,7 @@
     .t-content{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
     }
     .Trans-title h1{
         font-size: 42px;
@@ -187,6 +188,7 @@
     .t-content{
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom: 50px;
     }
 
     .t-image img{

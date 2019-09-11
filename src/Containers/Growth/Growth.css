@@ -89,6 +89,16 @@
         width: 500px;
         height: 308px;
     }
+
+    .g-description h1{
+        font-size: 32px;
+    }
+
+    .g-description p{
+        font-size: 14px;
+    }
+
+
 }
 
 
@@ -96,6 +106,7 @@
     .g-content{
         flex-direction: column;
         align-items: center;
+        margin-bottom: 50px;
     }
     .Growth-title h1{
         font-size: 42px;
@@ -107,7 +118,7 @@
     }
 
     .g-image img{
-        width: 650px;
+        width: 650px; 
         height: 401px;
     }
 
@@ -166,6 +177,7 @@
     .g-content{
         flex-direction: column;
         align-items: flex-start;
+        margin-bottom:50px;
     }
 
     .g-image img{
