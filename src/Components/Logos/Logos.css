@@ -1,0 +1,30 @@
+.Logos{
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.logos-container{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.logo {
+    margin: 20px 20px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo.color img{
+    position: relative;
+    bottom:8px;
+}
