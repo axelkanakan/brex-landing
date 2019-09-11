@@ -1,23 +1,24 @@
-.Growth{
+.Transparent{
     display: flex;
     flex-direction: column;
+    margin-bottom: 50px;
 }
 
-.Growth-title{
+.Trans-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.Growth-title h1{
+.Trans-title h1{
     font-size: 48px;
     font-family: 'Nunito', sans-serif;
     color:var(--primary-blue);
     font-weight: 300;
 }
 
-.Growth-title p{
+.Trans-title p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -28,14 +29,14 @@
     margin:0;
 }
 
-.g-content{
+.t-content{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
     margin-bottom: 150px;
 }
 
-.g-description{
+.t-description{
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -46,8 +47,9 @@
 }
 
 
-.g-description h1{
+.t-description h1{
     margin:0px;
+    margin-left:30px;
     margin-top: 30px;
     margin-bottom: 20px;
     text-align: left;
@@ -57,8 +59,9 @@
     font-weight: 300;
 }
 
-.g-description p {
+.t-description p {
     text-align: left;
+    margin-left:30px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 16px;
@@ -67,61 +70,75 @@
     line-height:25px;
     text-align: left;
     letter-spacing: 1px;
+
 }
 
-.g-description .learn{
+.t-description .t-learn{
     color: var(--primary-pink);
     font-weight: 600;
     font-size: 18px;
 }
 
-.g-image img{
+.t-image img{
     width: 650px;
-    height: 401px;
+    height: 404px;
 }
 
-.learn img{
+.t-learn img{
     margin-left: 10px;
 }
 
 @media (max-width: 950px){
-    .g-image img{
+    .t-image img{
         width: 500px;
-        height: 308px;
+        height: 311px;
     }
+    .t-description h1{
+        font-size: 32px;
+    }
+
+    .t-description p{
+        font-size: 14px;
+    }
+
+
 }
 
 
 @media (max-width: 800px){
-    .g-content{
+    .t-content{
         flex-direction: column;
         align-items: center;
     }
-    .Growth-title h1{
+    .Trans-title h1{
         font-size: 42px;
     }
 
-    .Growth-title p {
+    .Trans-title p {
         width: 600px;
         font-size: 16px;
     }
 
-    .g-image img{
+    .t-image img{
         width: 650px;
-        height: 401px;
+        height: 404px;
     }
 
-    .g-description{
+    .t-description{
         align-self: flex-start;
         margin-left: 50px;
     }
 
-    .g-description h1{
+    .t-description h1{
         font-size: 42px;
+        width: 500px;
+        margin-left:0px; 
     }
-    .g-description p {
+    .t-description p {
         width: 600px;
         font-size: 16px;
+        margin-left:0px; 
+
     }
 }
 
@@ -131,31 +148,35 @@
 
 
 @media (max-width:650px){
-    .g-content{
+    .t-content{
         flex-direction: column;
         align-items: center;
     }
 
 
 
-    .g-image img{
+    .t-image img{
         width: 500px;
-        height: 308px;
+        height: 311px;
     }
 
-    .Growth-title p {
+    .Trans-title p {
         width: 500px;
         font-size: 16px;
     }
 
-    .g-description{
+    .t-description{
         align-self: flex-start;
         margin-left: 50px;
     }
+    .t-description h1{
+        margin-left:0;
+    }
 
-    .g-description p {
+    .t-description p {
         width: 450px;
         font-size: 16px;
+        margin-left:0;
     }
     
 
@@ -163,33 +184,37 @@
 
 
 @media (max-width: 500px){
-    .g-content{
+    .t-content{
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .g-image img{
+    .t-image img{
         width: 500px;
-        height: 308px;
+        height: 311px;
     }
 
-    .Growth-title p {
+    .Trans-title p {
         width: 450px;
         font-size: 16px;
     }
 
-    .g-description{
+    .t-description{
         align-self: flex-start;
         margin-left: 50px;
     }
 
-    .g-description h1{
+    .t-description h1{
         font-size: 32px;
+        margin-left:0;
+        width: 400px;
     }
-    .g-description p {
+    .t-description p {
         width: 400px;
         font-size: 14px;
+        margin-left:0;
     }
+
     
 
 }

@@ -1,23 +1,23 @@
-.Growth{
+.Friction{
     display: flex;
     flex-direction: column;
 }
 
-.Growth-title{
+.Friction-title{
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-bottom: 100px;
 }
 
-.Growth-title h1{
+.Friction-title h1{
     font-size: 48px;
     font-family: 'Nunito', sans-serif;
     color:var(--primary-blue);
     font-weight: 300;
 }
 
-.Growth-title p{
+.Friction-title p{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 18px;
@@ -28,14 +28,14 @@
     margin:0;
 }
 
-.g-content{
+.f-content{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     margin-bottom: 150px;
 }
 
-.g-description{
+.f-description{
     display: flex;
     flex-direction: column;
     width: 300px;
@@ -46,7 +46,7 @@
 }
 
 
-.g-description h1{
+.f-description h1{
     margin:0px;
     margin-top: 30px;
     margin-bottom: 20px;
@@ -57,7 +57,7 @@
     font-weight: 300;
 }
 
-.g-description p {
+.f-description p {
     text-align: left;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
@@ -69,57 +69,68 @@
     letter-spacing: 1px;
 }
 
-.g-description .learn{
+.f-description .f-learn{
     color: var(--primary-pink);
     font-weight: 600;
     font-size: 18px;
 }
 
-.g-image img{
+.f-image img{
     width: 650px;
     height: 401px;
 }
 
-.learn img{
+.f-learn img{
     margin-left: 10px;
 }
 
 @media (max-width: 950px){
-    .g-image img{
+    .f-image img{
         width: 500px;
         height: 308px;
     }
+
+    .f-description h1{
+        font-size: 32px;
+        width: 200px;
+    }
+
+    .f-description p{
+        font-size: 14px;
+    }
+
 }
 
 
 @media (max-width: 800px){
-    .g-content{
+    .f-content{
         flex-direction: column;
         align-items: center;
     }
-    .Growth-title h1{
+    .Friction-title h1{
         font-size: 42px;
     }
 
-    .Growth-title p {
+    .Friction-title p {
         width: 600px;
         font-size: 16px;
     }
 
-    .g-image img{
+    .f-image img{
         width: 650px;
         height: 401px;
     }
 
-    .g-description{
+    .f-description{
         align-self: flex-start;
         margin-left: 50px;
     }
 
-    .g-description h1{
+    .f-description h1{
         font-size: 42px;
+        width: 600px;
     }
-    .g-description p {
+    .f-description p {
         width: 600px;
         font-size: 16px;
     }
@@ -131,30 +142,27 @@
 
 
 @media (max-width:650px){
-    .g-content{
+    .f-content{
         flex-direction: column;
         align-items: center;
     }
 
-
-
-    .g-image img{
+    .f-image img{
         width: 500px;
         height: 308px;
     }
 
-    .Growth-title p {
-        width: 500px;
-        font-size: 16px;
-    }
-
-    .g-description{
+    .f-description{
         align-self: flex-start;
         margin-left: 50px;
     }
 
-    .g-description p {
-        width: 450px;
+    .f-description h1{
+        width: 400px;
+    }
+
+    .f-description p {
+        width: 400px;
         font-size: 16px;
     }
     
@@ -163,30 +171,31 @@
 
 
 @media (max-width: 500px){
-    .g-content{
+    .f-content{
         flex-direction: column;
         align-items: flex-start;
     }
 
-    .g-image img{
+    .f-image img{
         width: 500px;
         height: 308px;
     }
 
-    .Growth-title p {
+    .Friction-title p {
         width: 450px;
         font-size: 16px;
     }
 
-    .g-description{
+    .f-description{
         align-self: flex-start;
         margin-left: 50px;
     }
 
-    .g-description h1{
+    .f-description h1{
         font-size: 32px;
+
     }
-    .g-description p {
+    .f-description p {
         width: 400px;
         font-size: 14px;
     }
