@@ -12,7 +12,7 @@ const Header = ({ openNav, handleNavOpen}) => {
             <div className="blogo"><h1>Brex</h1></div>
             <div className="navigation">
                 <nav className="nav-container">   
-                    <h4>How It Works</h4> 
+                    <h4>How It Works</h4>   
                     <h4>Rewards</h4> 
                     <h4>Pricing</h4> 
                     <h4>Contact Us</h4> 

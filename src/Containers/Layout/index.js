@@ -9,6 +9,7 @@ import Friction from '../Friction';
 import Logos from '../../Components/Logos';
 import Press from '../../Components/Press';
 import Integration from '../../Containers/Integration';
+import Rewards from '../Rewards';
 
 const Layout = ()=> (
     <div>
@@ -19,6 +20,7 @@ const Layout = ()=> (
         <Transparent/>
         <Friction/>
         <Integration/>
+        <Rewards/>
         <Press/>
         <Footer/>
     </div>

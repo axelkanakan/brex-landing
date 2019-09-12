@@ -1,0 +1,58 @@
+.Rewards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+
+
+.rewards-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rewards-container h1{
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+    color:var(--primary-blue);
+    font-weight: 300;
+}
+
+.rewards-container p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color:#313388;
+    letter-spacing: 1px;
+    width: 500px;
+    margin:0;
+    margin-bottom: 50px;
+}
+
+.button-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+}
+
+
+@media(max-width: 800px){
+    .rewards-container p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media(max-width: 500px){
+    .rewards-container p {
+        font-size: 16px;
+        width: 450px;
+    }
+}
+
