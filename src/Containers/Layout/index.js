@@ -7,6 +7,7 @@ import Growth from '../Growth';
 import Transparent from '../Transparent';
 import Friction from '../Friction';
 import Logos from '../../Components/Logos';
+import Press from '../../Components/Press';
 
 const Layout = ()=> (
     <div>
@@ -16,6 +17,7 @@ const Layout = ()=> (
         <Growth/>
         <Transparent/>
         <Friction/>
+        <Press/>
         <Footer/>
     </div>
 )
