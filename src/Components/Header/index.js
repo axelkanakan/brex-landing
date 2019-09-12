@@ -9,7 +9,7 @@ const Header = ({ openNav, handleNavOpen}) => {
     return (
     <div className="Header">
         <header className="header-container">
-            <div className="logo"><h1>Brex</h1></div>
+            <div className="blogo"><h1>Brex</h1></div>
             <div className="navigation">
                 <nav className="nav-container">   
                     <h4>How It Works</h4> 

@@ -17,13 +17,13 @@
     align-items: center;  
 }
 
-.logo{
+.header-container .blogo {
     display: flex;
     flex:1;
     justify-content: center;
 }
 
-.logo h1{
+.header-container .blogo h1{
     margin:0;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-weight: 800;
@@ -108,11 +108,11 @@
         flex:1;
     }
 
-    .logo{
+    .header-container .blogo{
         justify-content: flex-start;
     }
 
-    .logo h1{
+    .header-container .blogo h1{
         margin-left: 50px;
     }
 
