@@ -10,6 +10,7 @@ import Logos from '../../Components/Logos';
 import Press from '../../Components/Press';
 import Integration from '../../Containers/Integration';
 import Rewards from '../Rewards';
+import Happy from '../Happy';
 
 const Layout = ()=> (
     <div>
@@ -21,6 +22,7 @@ const Layout = ()=> (
         <Friction/>
         <Integration/>
         <Rewards/>
+        <Happy/>
         <Press/>
         <Footer/>
     </div>

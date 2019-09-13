@@ -1,0 +1,154 @@
+.Box {
+    width: 550px;
+    height: 350px;
+    background:linear-gradient(to right,  #F4427E,  #FE9A86);
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 6px 26px 0px rgba(142,140,219,0.45);
+}
+
+.box-container {
+    display: flex;
+    width: 100%;
+    height: 340px;
+    background: url('../../Assets/logos/background-logo.svg') no-repeat center;
+    border-radius: 20px;
+    background-size:cover; 
+    margin-top:10px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Quotes{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(to bottom, #FD9585, #F4427E );
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.bar{
+    width: 50px;
+    height: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.Right{
+    display: flex;
+    width: 100px;
+    height: 200px;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-around;
+}
+
+.Left{
+    width: 300px;
+    height: 200px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+.section-one{
+    display: flex;
+    flex-wrap:wrap; 
+}
+
+.section-two{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-two .name{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+    margin:0;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.section-two .identity{
+    font-family: 'Open Sans', sans-serif;
+    color:#EFDD00;
+    margin:0;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+}
+
+.section-two .Profile{
+    transform:scale(.6);
+}
+
+.ceo{
+    width: 200px;
+    height: 50px;
+}
+
+
+
+@media (max-width: 650px){
+    .Box{
+        width: 450px;
+        height: 350px;
+    }
+    .box-container{
+        align-items: flex-start;
+        justify-content: flex-start;
+        height: 340px;
+
+    }
+
+    .section-one{
+        margin-top: 30px;
+    }
+
+    .Right{
+        margin-left: 30px;
+    }
+
+
+    .Left {
+        width: 250px;
+        font-size:14px; 
+        margin-left: 30px;
+    }
+
+    .section-two{
+        align-self: center;
+    }
+    .section-two .name{
+        font-size: 14px;
+    }
+
+    .section-two .identity{
+        font-size: 14px;
+    }
+
+    .section-two .Profile{
+        transform: scale(.6);
+    }
+
+    .Quotes{
+        width: 60px;
+        height: 60px;
+    }
+
+    .Quotes img{
+        transform: scale(.9);
+    }
+    
+}

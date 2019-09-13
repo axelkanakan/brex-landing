@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="596px" height="356px" viewBox="0 0 596 356" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Group 7</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="12.6933463%" cy="-2.69023658%" fx="12.6933463%" fy="-2.69023658%" r="166.430734%" gradientTransform="translate(0.126933,-0.026902),scale(0.597315,1.000000),rotate(29.302313),scale(1.000000,0.950275),translate(-0.126933,0.026902)" id="radialGradient-1">
+            <stop stop-color="#9456D5" offset="0%"></stop>
+            <stop stop-color="#5013C7" offset="60.6341986%"></stop>
+            <stop stop-color="#4D10C6" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="0" y="0" width="596" height="356"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#4205BB" offset="0%"></stop>
+            <stop stop-color="#4205BA" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-5">
+            <stop stop-color="#4205BB" offset="0%"></stop>
+            <stop stop-color="#4205BA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-343.000000, -5142.000000)">
+            <g id="Group-7" transform="translate(343.000000, 5142.000000)">
+                <g id="Combined-Shape-+-Combined-Shape-Copy-Mask">
+                    <mask id="mask-3" fill="white">
+                        <use xlink:href="#path-2"></use>
+                    </mask>
+                    <use id="Mask" fill="url(#radialGradient-1)" xlink:href="#path-2"></use>
+                    <g id="Group-6" opacity="0.695963542" style="mix-blend-mode: darken;" mask="url(#mask-3)" fill="#4F1ABB">
+                        <g transform="translate(259.000000, -30.169492)">
+                            <path d="M13.6920072,89.1470805 L13.6553184,89.1476728 L71.9331445,1.63424829e-13 L128.125597,1.63424829e-13 L94.68307,80.6140638 C108.35139,91.4130399 117.133106,108.201195 117.133106,127.055257 C117.133106,159.634502 90.9119669,186.045198 58.5665529,186.045198 C26.2211389,186.045198 1.42108547e-14,159.634502 1.42108547e-14,127.055257 C1.42108547e-14,112.621763 5.14650571,99.3989902 13.6920072,89.1470805 Z" id="Combined-Shape"></path>
+                            <path d="M148.845591,89.1470805 L148.808902,89.1476728 L207.086728,1.63424829e-13 L263.279181,1.63424829e-13 L229.836654,80.6140638 C243.504973,91.4130399 252.286689,108.201195 252.286689,127.055257 C252.286689,159.634502 226.065551,186.045198 193.720137,186.045198 C161.374723,186.045198 135.153584,159.634502 135.153584,127.055257 C135.153584,112.621763 140.300089,99.3989902 148.845591,89.1470805 Z" id="Combined-Shape-Copy"></path>
+                        </g>
+                    </g>
+                </g>
+                <path d="M166,356 C159.730543,352.264315 154.961067,345.571702 151.691575,335.922162 C146.787335,321.447851 127.656701,293.51841 93.4344475,307.48313 C59.2121939,321.447851 50.6673726,297.142377 47.8002188,290.096318 C44.9330651,283.050259 46.7396844,264.265995 51.6048616,249.926921 C56.4700387,235.587848 40.1870272,192.49615 0,188 C0,188 0,244 0,356 L166,356 Z" id="Path-5" fill="url(#linearGradient-4)" opacity="0.526762463"></path>
+                <path d="M596,355.9 C587.653313,350.919086 581.30359,341.995603 576.950831,329.129549 C570.421694,309.830468 544.952596,272.591213 499.391644,291.21084 C453.830692,309.830468 442.454755,277.42317 438.637641,268.028424 C434.820526,258.633679 437.225724,233.587993 443.702858,214.469229 C450.179991,195.350464 428.502006,137.894867 375,131.9 C375,131.9 375,206.566667 375,355.9 L596,355.9 Z" id="Path-5" fill="url(#linearGradient-5)" opacity="0.576078869" transform="translate(485.500000, 243.900000) scale(-1, 1) translate(-485.500000, -243.900000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
