@@ -1,4 +1,8 @@
 .Happy{
     display: flex;
     flex-wrap: wrap;
+    background: url('../../Assets/faces/background-face.svg')no-repeat center;
+    background-size: cover;
+    justify-content: center;
+
 }
