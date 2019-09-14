@@ -1,0 +1,50 @@
+.HapHeader{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.hapheader-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hapheader-container h1{
+    font-size: 48px;
+    font-family: 'Nunito', sans-serif;
+    color:var(--primary-blue);
+    font-weight: 300;
+}
+
+.hapheader-container p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 30px;
+    color:#313388;
+    letter-spacing: 1px;
+    width: 500px;
+    margin:0;
+    margin-bottom: 50px;
+}
+
+
+@media(max-width: 800px){
+    .hapheader-container p {
+        font-size: 16px;
+    }
+}
+
+
+
+
+@media(max-width: 500px){
+    .hapheader-container p {
+        font-size: 16px;
+        width: 450px;
+    }
+}
+

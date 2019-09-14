@@ -11,7 +11,7 @@ import Press from '../../Components/Press';
 import Integration from '../../Containers/Integration';
 import Rewards from '../Rewards';
 import Happy from '../Happy';
-
+import HapHeader from '../Hapheader';
 const Layout = ()=> (
     <div>
         <Hero/>
@@ -21,8 +21,9 @@ const Layout = ()=> (
         <Transparent/>
         <Friction/>
         <Integration/>
-        <Rewards/>
+        <HapHeader/>
         <Happy/>
+        <Rewards/>
         <Press/>
         <Footer/>
     </div>
