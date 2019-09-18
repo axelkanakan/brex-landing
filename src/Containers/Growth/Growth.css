@@ -173,7 +173,7 @@
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 530px){
     .g-content{
         flex-direction: column;
         align-items: flex-start;

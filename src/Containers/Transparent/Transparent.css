@@ -185,7 +185,7 @@
 }
 
 
-@media (max-width: 500px){
+@media (max-width: 530px){
     .t-content{
         flex-direction: column;
         align-items: flex-start;
