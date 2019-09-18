@@ -50,3 +50,14 @@
         font-size: 16px;
     }
 }
+
+@media (max-width: 375px){
+    .Start h1{
+        font-size: 38px;
+    }
+
+    .Start p{
+        width:320px;
+        font-size:14px;
+    }
+}
