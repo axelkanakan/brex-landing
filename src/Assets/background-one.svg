@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="888px" height="173px" viewBox="0 0 888 173" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>background-one</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="50%" x2="0%" y2="50%" id="linearGradient-1">
+            <stop stop-color="#FFA1C8" offset="0%"></stop>
+            <stop stop-color="#FF6BB0" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="background-one" transform="translate(-175.000000, -16.000000)">
+            <rect id="Rectangle-Copy-3" x="0" y="0" width="1145" height="194"></rect>
+            <path d="M206.126189,131.040686 C206.126189,131.040686 200.40161,134.681326 196.239025,136.206135 C192.076441,137.730943 188.952451,138.746414 183.74799,122.489266 C178.543528,106.233719 171.519474,96.8350048 179.844644,96.3256675 C188.173095,95.8179319 189.992687,92.7699168 195.718907,98.1051446 C201.443487,103.438771 215.754115,114.589733 216.014994,115.99922 C216.274233,117.408707 218.095466,120.202053 216.014994,122.998603 C213.932882,125.79195 206.126189,131.040686 206.126189,131.040686" id="Fill-4-Copy" fill="#45E6F3" transform="translate(196.500000, 116.000000) rotate(87.000000) translate(-196.500000, -116.000000) "></path>
+            <rect id="Rectangle-Copy" fill="#F3A8F5" transform="translate(942.269624, 177.343537) rotate(39.000000) translate(-942.269624, -177.343537) " x="933.769624" y="168.343537" width="17" height="18" rx="4"></rect>
+            <circle id="Oval-Copy-3" fill="url(#linearGradient-1)" cx="813" cy="30" r="9"></circle>
+            <circle id="Oval-Copy-2" fill="#A5CDFB" cx="394.5" cy="48.5" r="11.5"></circle>
+            <path d="M1040.13259,23.2786864 C1040.13259,23.2786864 1038.97685,16.2439107 1043.48975,16.0205845 C1048.00265,15.7972582 1049.59868,17.4163733 1050.03896,19.6496354 C1050.47924,21.8828975 1050.53428,27.9127053 1058.1842,28.0243684 C1065.83411,28.1360315 1063.24745,35.7291228 1058.1842,35.952449 C1053.12094,36.1757752 1047.39726,35.8966174 1042.49911,28.6385155 C1042.49911,28.6385155 1040.68295,26.0144325 1040.13259,23.2786864" id="Fill-1-Copy" fill="#FBCF06"></path>
+        </g>
+    </g>
+</svg>

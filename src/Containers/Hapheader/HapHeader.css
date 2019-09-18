@@ -1,6 +1,8 @@
 .HapHeader{
     display: flex;
     justify-content: center;
+    background:url('../../Assets/background-one.svg') no-repeat center;
+    background-size:cover; 
 }
 
 

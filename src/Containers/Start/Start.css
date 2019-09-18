@@ -3,6 +3,8 @@
     flex-direction: column;
     align-items: center;
     margin-bottom: 120px;
+    background: url('../../Assets/background-four.svg') no-repeat center;
+    background-size:cover; 
 }
 
 .Start h1{
