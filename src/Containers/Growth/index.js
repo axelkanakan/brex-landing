@@ -16,7 +16,7 @@ const Growth = () =>
             <div className="g-description">
                 <h1>Full Control</h1>
                 <p>Use the dashboard to instantly add cardholders and set individual limits based on your business needs.</p>
-                <p className="learn">Learn More <img src={arrow} alt="pink-arrow"/></p>
+                <p className="learn"><span>Learn More </span><img src={arrow} alt="pink-arrow"/></p>
             </div>
         </div>
     </div>

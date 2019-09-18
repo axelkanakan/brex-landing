@@ -12,7 +12,7 @@ const Friction = () =>
             <div className="f-description">
                 <h1>Frictionless Reciept Capture</h1>
                 <p>Brex matches your receipt to the correct transaction automatically. Real time receipt tracking means no more Friday nights manually inputting receipts.</p>
-                <p className="f-learn">Learn More <img src={arrow} alt="pink-arrow"/></p>
+                <p className="f-learn"><span>Learn More</span><img src={arrow} alt="pink-arrow"/></p>
             </div>
         </div>
     </div>

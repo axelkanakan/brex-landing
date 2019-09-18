@@ -25,7 +25,7 @@
     color:#313388;
     letter-spacing: 1px;
     width: 800px;
-    margin:0;
+    margin:0; 
 }
 
 .g-content{
@@ -79,10 +79,16 @@
     width: 650px;
     height: 401px;
 }
-
-.learn img{
-    margin-left: 10px;
+.learn span{
+    margin-right:10px; 
+    transition: .3s ease-out;
+    cursor: pointer;
 }
+
+.learn span:hover{
+    margin-right: 20px;
+}
+
 
 @media (max-width: 950px){
     .g-image img{

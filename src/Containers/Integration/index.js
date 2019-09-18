@@ -27,7 +27,7 @@ const Integration = () =>
     <div className="i-description">
         <h1>Smart Intergration</h1>
         <p>Brex understands that startups are different from traditional small business. Our application takes only minutes, so you can get back to building your business.</p>
-        <p className="i-learn">Learn More <img src={arrow} alt="pink-arrow"/></p>
+        <p className="i-learn"><span>Learn More</span><img src={arrow} alt="pink-arrow"/></p>
     </div>
     </div>
 </div>

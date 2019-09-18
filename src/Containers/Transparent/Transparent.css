@@ -84,9 +84,17 @@
     height: 404px;
 }
 
-.t-learn img{
-    margin-left: 10px;
+.t-learn span{
+    margin-right:10px; 
+    transition: .3s ease-out;
+    cursor: pointer;
 }
+
+.t-learn span:hover{
+    margin-right: 20px;
+}
+
+
 
 @media (max-width: 950px){
     .t-image img{
