@@ -278,6 +278,7 @@
     .i-description h1{
         font-size: 22px;
         margin-bottom: 10px;
+        width: 300px;
     }
 
     .i-description p{

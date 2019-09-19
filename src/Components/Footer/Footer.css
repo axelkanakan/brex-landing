@@ -237,20 +237,33 @@
     }
 
     .col-1:nth-child(2){
-        margin-left: 60px;
+        margin-left: 80px;
     }
 
     .col-1 h3{
-        font-size: 24px;
-    }
-
-    .col-1 p{
         font-size: 18px;
     }
 
+    .col-1 p{
+        font-size: 14px;
+    }
+
+    .news-letter h2{
+        font-size: 22px;
+    }
+
+    .Footer{
+        height: 155vh;
+    }
+
+
+    .bottom{
+        flex: 1;
+        margin-top:30px;
+    }
 
     .bottom-content p{
         font-size: 12px;
-        line-height: 18px;
+        line-height: 20px;
     }
 }

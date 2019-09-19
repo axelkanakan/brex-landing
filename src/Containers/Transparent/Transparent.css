@@ -242,6 +242,7 @@
     .t-description h1{
         font-size: 22px;
         margin-bottom: 10px;
+        width: 300px;
     }
 
     .t-description p{
@@ -252,4 +253,6 @@
     .t-description .t-learn{
         font-size: 14px;
     }
+
+    
 }
