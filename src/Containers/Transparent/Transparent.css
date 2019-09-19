@@ -233,7 +233,7 @@
 @media (max-width:375px){
     .t-image img{
         width: 350px;
-        height: 228px;
+        height: 218px;
     }
     .t-description{
         margin-left: 30px;
@@ -241,6 +241,7 @@
 
     .t-description h1{
         font-size: 22px;
+        margin-bottom: 10px;
     }
 
     .t-description p{

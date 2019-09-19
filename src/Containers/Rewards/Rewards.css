@@ -58,3 +58,14 @@
     }
 }
 
+@media(max-width:375px){
+    .rewards-container h1{
+        font-size: 38px;
+        width: 350px;
+    }
+    .rewards-container p{
+        font-size: 14px;
+        width: 320px;
+    }
+}
+

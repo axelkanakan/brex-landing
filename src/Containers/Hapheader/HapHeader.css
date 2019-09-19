@@ -50,3 +50,13 @@
     }
 }
 
+@media(max-width: 375px){
+    .hapheader-container p{
+        font-size:14px;
+        width: 320px;
+    }
+
+    .hapheader-container h1{
+        font-size: 38px;
+    }
+}

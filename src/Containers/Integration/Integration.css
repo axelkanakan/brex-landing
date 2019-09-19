@@ -227,7 +227,7 @@
 @media (max-width: 530px){
     .i-content{
         flex-direction: column;
-        align-items: flex-start;
+        align-items: center;
         margin-bottom: 50px;
     }
 
@@ -254,4 +254,38 @@
 
     
 
+}
+
+@media (max-width: 375px){
+    .integration-container{
+        width:350px;
+    }
+    .i-content{
+        align-items:center; 
+    }
+
+    .i-description{
+        margin-left:30px;
+    }
+
+        
+    .int-logo{
+        width: 150px;
+        height: 120px;
+    }
+
+
+    .i-description h1{
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+
+    .i-description p{
+        width: 320px;
+        font-size: 12px;
+    }
+
+    .i-description .i-learn{
+        font-size: 14px;
+    }
 }
