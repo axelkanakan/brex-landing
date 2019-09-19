@@ -14,7 +14,7 @@ const Header = ({ openNav, handleNavOpen}) => {
                 <nav className="nav-container">   
                     <h4>How It Works</h4>   
                     <h4>Rewards</h4> 
-                    <h4>Pricing</h4> 
+                    <h4>Pricing</h4>   
                     <h4>Contact Us</h4> 
                     <h4>FAQ</h4> 
                 </nav>
