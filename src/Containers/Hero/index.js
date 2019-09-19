@@ -19,7 +19,7 @@ class Hero extends Component{
             <Header openNav={this.state.navOpen} handleNavOpen={this.handleNavOpen}/>
             <NavDropDown openNav={this.state.navOpen}/>
             <Hcontent/>
-        </div>
+        </div> 
         )
 
     }

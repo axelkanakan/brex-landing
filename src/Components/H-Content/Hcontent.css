@@ -179,6 +179,10 @@
         line-height: 52px;
     }
 
+    .title p{
+        font-size: 14px;
+    }
+
     .bg-image{
         margin-top: 50px;
     }

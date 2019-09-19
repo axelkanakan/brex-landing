@@ -6,7 +6,6 @@ import './NavDropdown.css';
 
 
 const NavDropDown = ({openNav}) => {
-    
     if(openNav){
         return (
             <div className="nav-dropdown">

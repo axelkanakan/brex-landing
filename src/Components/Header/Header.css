@@ -20,7 +20,7 @@
 .header-container .blogo {
     display: flex;
     flex:1;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .header-container .blogo h1{
@@ -30,6 +30,7 @@
     color:var(--primary-pink);
     font-size: 32px;
     letter-spacing: -0.9px;
+    margin-left: 70px;
 }
 
 .navigation{ 
@@ -99,6 +100,12 @@
 
     .nav-container{
         flex: 4;
+    }
+}
+
+@media (max-width: 1060px){
+    .header-container .blogo h1{
+        margin-left: 20px;
     }
 }
 
