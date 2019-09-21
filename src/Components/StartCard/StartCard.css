@@ -28,6 +28,31 @@
 }
 
 
+@media (max-width: 414px){
+    .StartCard{
+        border:2px solid #FDEEF2;
+    }
+    .card-content
+
+    .card-content h3{
+        font-size: 18px;
+    }
+    .card-content p{
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+
+    .start-image img{
+        width: 150px;
+        height: 150px;
+    }
+
+    .start-image{
+        margin-top: 40px;
+    }
+
+}
+
 @media (max-width: 375px){
     .StartCard{
         border:2px solid #FDEEF2;

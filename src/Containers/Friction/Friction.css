@@ -211,6 +211,33 @@
     
 
 }
+@media(max-width: 414px){
+    .f-image img{
+        width: 350px;
+        height: 228px;
+
+    }
+
+    .f-description{
+        margin-left: 50px;
+    }
+    .f-description h1{
+        font-size: 22px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
+    .f-description p{
+        font-size: 12px;
+        width: 320px;
+    }
+
+    .f-description .f-learn{
+        font-size: 14px;
+    }
+
+}
+
 
 @media(max-width: 375px){
     .f-image img{

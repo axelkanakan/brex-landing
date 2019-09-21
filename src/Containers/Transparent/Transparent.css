@@ -230,6 +230,38 @@
 
 }
 
+@media (max-width:414px){
+    .t-content{
+        align-items: center;
+    }
+    .t-image img{
+        width: 350px;
+        height: 218px;
+    }
+    .t-description {
+        margin-left: 50px;
+    }
+
+    .t-description h1{
+        font-size: 22px;
+        margin-bottom: 10px;
+        width: 300px;
+    }
+
+    .t-description p{
+        width: 320px;
+        font-size: 12px;
+    }
+
+    .t-description .t-learn{
+        font-size: 14px;
+    }
+
+    
+}
+
+
+
 @media (max-width:375px){
     .t-image img{
         width: 350px;

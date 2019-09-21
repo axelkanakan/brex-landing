@@ -171,6 +171,29 @@
     }
 }
 
+@media(max-width: 414px){
+
+    .title h1{
+        font-size: 38px;
+        width: 300px;
+    }
+
+    .title p{
+        font-size:14px;
+    }
+
+    .bg-image img{
+        width: 350px;
+        height: 317.36px;
+    }
+
+    .bg-image{
+        margin-top: 50px;
+    }
+
+
+}
+
 
 @media (max-width: 375px){
     .title h1{

@@ -211,6 +211,46 @@
     
 
 }
+@media (max-width: 414px){
+    .g-image img{
+        width: 350px;
+        height: 216px;
+    }
+
+    .Growth-title h1{
+        font-size: 38px;
+    }
+    .g-content{
+        align-items: center;
+    }
+
+    
+    .Growth-title p{
+        width: 320px;
+        font-size: 14px;
+    }
+    .g-description{
+        margin-left: 50px;
+    }
+
+    .g-description .learn{
+        font-size: 14px;
+    }
+
+    .g-description h1{
+        font-size: 22px;
+        margin-top:10px;
+        margin-bottom: 10px;
+    }
+
+    .g-description p{
+        font-size: 12px;
+        width: 320px;
+    }
+
+}
+
+
 
 @media (max-width: 375px){
     .g-image img{
